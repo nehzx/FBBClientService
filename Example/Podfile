@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FBBClientService_Example' do
+  pod 'FBBClientService', :path => '../'
+
+  target 'FBBClientService_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
