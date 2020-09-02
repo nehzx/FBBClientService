@@ -1,0 +1,64 @@
+PODS:
+  - FBBClientService (0.1.0):
+    - FMDB
+    - HappyDNS
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - Qiniu
+    - SDWebImage
+    - TZImagePickerController
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (0.3.17)
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - Qiniu (8.0.0):
+    - HappyDNS (~> 0.3.17)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - TZImagePickerController (3.4.2)
+
+DEPENDENCIES:
+  - FBBClientService (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - FMDB
+    - HappyDNS
+    - JSONModel
+    - Masonry
+    - MJRefresh
+    - Qiniu
+    - SDWebImage
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  FBBClientService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBBClientService: 641b056e7154f96c586777a9db37e0558e4d54a9
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Qiniu: b9c638318b8179d01d8dfc745159e4047e8975b7
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
+
+PODFILE CHECKSUM: 3f588ba74b86bd563ac9229f84723ee11c2e4fa8
+
+COCOAPODS: 1.9.3

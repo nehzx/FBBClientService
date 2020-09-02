@@ -1,0 +1,62 @@
+{
+  "name": "FBBClientService",
+  "version": "0.1.0",
+  "summary": "A short description of FBBClientService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nehzx/FBBClientService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "阿振": "964190389@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/nehzx/FBBClientService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FBBClientService/Classes/**/*",
+  "libraries": [
+    "sqlite3",
+    "z",
+    "resolv"
+  ],
+  "vendored_frameworks": "FBBClientService/QMLineSDK.framework",
+  "vendored_libraries": "FBBClientService/Voice/libmp3lame.a",
+  "static_framework": true,
+  "resource_bundles": {
+    "FBBClientService": [
+      "FBBClientService/Assets/*"
+    ]
+  },
+  "prefix_header_contents": "#import \"PrefixHeader.h\"",
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "HappyDNS": [
+
+    ],
+    "Qiniu": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "TZImagePickerController": [
+
+    ]
+  }
+}

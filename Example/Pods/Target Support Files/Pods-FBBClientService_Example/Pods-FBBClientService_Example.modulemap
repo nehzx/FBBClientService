@@ -1,0 +1,6 @@
+framework module Pods_FBBClientService_Example {
+  umbrella header "Pods-FBBClientService_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
