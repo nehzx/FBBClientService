@@ -1422,8 +1422,8 @@
 
 - (void)insertEmoji: (NSString *)code {
     QMTextAttachment * emojiTextAttemt = [QMTextAttachment new];
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"QMEmoticon" ofType:@"bundle"];
-    NSString *fileName = [[NSBundle mainBundle] pathForResource:@"expressionImage" ofType:@"plist"];
+    NSString *bundlePath = [Bundle pathForResource:@"QMEmoticon" ofType:@"bundle"];
+    NSString *fileName = [Bundle pathForResource:@"expressionImage" ofType:@"plist"];
     NSDictionary *plistDict = [NSDictionary dictionaryWithContentsOfFile:fileName];
     
     if ([plistDict objectForKey:code] != nil) {

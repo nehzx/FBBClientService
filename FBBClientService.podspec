@@ -7,25 +7,21 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FBBClientService'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FBBClientService.'
+  # 项目名称 七陌 客服
+  s.name             = "FBBClientService"
+  # 项目的版本号，通过项目git的tag标签进行对应，这里的标签代表的版本
+  s.version          = "1.0.0"
+  # 项目简单的描述信息
+  s.summary          = "七陌客服UI组件"
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
   DESC
-  # 七陌 客服
-  s.name             = "FBBClientService"
-  # 项目的版本号，通过项目git的tag标签进行对应，这里的标签代表的版本
-  s.version          = "0.0.1"
-  # 项目简单的描述信息
-  s.summary          = "七陌客服UI组件"
   
   s.homepage         = 'https://github.com/nehzx/FBBClientService'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

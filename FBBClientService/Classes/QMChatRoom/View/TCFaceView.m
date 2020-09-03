@@ -31,7 +31,7 @@
         // 上下垂直间隔
         CGFloat verticalInterval = (CGRectGetHeight(self.bounds)-2*EdgeInterVal -Lines*FaceSize)/(Lines-1);
         
-        NSString *bundlePath = [[NSBundle mainBundle]pathForResource:@"QMEmoticon" ofType:@"bundle"];
+        NSString *bundlePath = [Bundle pathForResource:@"QMEmoticon" ofType:@"bundle"];
         
         for (int i = 0; i<Lines; i++)
         {
@@ -71,7 +71,7 @@
         isDelete = YES;
     }else{
         NSString *expressstring = [NSString stringWithFormat:@"emoji_%ld.png",(long)button.tag];
-        NSString *plistStr = [[NSBundle mainBundle]pathForResource:@"expressionImage" ofType:@"plist"];
+        NSString *plistStr = [Bundle pathForResource:@"expressionImage" ofType:@"plist"];
         NSDictionary *plistDic = [[NSDictionary  alloc]initWithContentsOfFile:plistStr];
         for (int j = 0; j<[[plistDic allKeys]count]; j++)
         {

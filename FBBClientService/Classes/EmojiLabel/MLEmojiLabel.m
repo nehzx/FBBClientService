@@ -111,7 +111,7 @@ NSString * const kURLActions[] = {@"url->",@"email->",@"phoneNumber->",@"at->",@
     }
     
     
-    NSString *emojiFilePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:key];
+    NSString *emojiFilePath = [[Bundle resourcePath] stringByAppendingPathComponent:key];
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:emojiFilePath];
     NSAssert(dict,@"表情字典%@找不到",key);
     self.emojiDictRecords[key] = dict;
@@ -169,7 +169,7 @@ NSString * const kURLActions[] = {@"url->",@"email->",@"phoneNumber->",@"at->",@
     static NSDictionary *emojiDictionary = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString *emojiFilePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"expressionImage.plist"];
+        NSString *emojiFilePath = [[Bundle resourcePath] stringByAppendingPathComponent:@"expressionImage.plist"];
         emojiDictionary = [[NSDictionary alloc] initWithContentsOfFile:emojiFilePath];
     });
     return emojiDictionary;
