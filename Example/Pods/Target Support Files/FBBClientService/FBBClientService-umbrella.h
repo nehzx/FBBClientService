@@ -32,6 +32,7 @@
 #import "QMChatRoomXbotCardCell.h"
 #import "QMLeaveMessageCell.h"
 #import "QMQuestionCell.h"
+#import "FBBManager.h"
 #import "QMLogistcsInfoModel.h"
 #import "QMQuestionModel.h"
 #import "CustormLayout.h"

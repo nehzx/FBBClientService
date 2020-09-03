@@ -1,5 +1,5 @@
 PODS:
-  - FBBClientService (0.1.0):
+  - FBBClientService (0.0.1):
     - FMDB
     - HappyDNS
     - JSONModel
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBBClientService: 641b056e7154f96c586777a9db37e0558e4d54a9
+  FBBClientService: 944c84e81ff4aa14bfcfa2631ee8be05da99b3c8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea

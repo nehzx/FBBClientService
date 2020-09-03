@@ -7,7 +7,8 @@
 //
 #import "QMChatRoomViewController.h"
 #import "FBBViewController.h"
-#import "QMHomeViewController.h"
+#import "FBBManager.h"
+//#import "QMHomeViewController.h"
 @interface FBBViewController ()
 
 @end
@@ -22,7 +23,8 @@
 }
 
 - (void)onTapClick:(UIGestureRecognizer *) sender {
-    [self.navigationController pushViewController:[[QMHomeViewController alloc]init] animated:YES];
+    
+    [FBBManager pushChatRoomWithAppKey:@"342d4aa0-d20e-11ea-9819-bf0b406c804b" userId:@"10086" userName:@"10086" completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
