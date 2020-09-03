@@ -26,7 +26,7 @@
 + (void)pushChatRoomWithAppKey:(NSString *)appKey
                         userId:(NSString *)userId
                       userName:(NSString *)userName
-                    completion:(completion)completion {
+                    completion:(completion __nullable)completion {
     [self standardManager].appKey = appKey;
     [self standardManager].isPushed = NO;
     [self standardManager].isConnecting = YES;

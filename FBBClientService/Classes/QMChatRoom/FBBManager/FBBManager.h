@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-typedef void (^completion)(UIViewController *chatVC, NSError *error);
+typedef void (^completion)( UIViewController * __nullable chatVC, NSError * _Nullable error);
 
 @interface FBBManager : NSObject
 /// 跳转到聊天页面
@@ -19,7 +19,7 @@ typedef void (^completion)(UIViewController *chatVC, NSError *error);
 + (void)pushChatRoomWithAppKey:(NSString *)appKey
                         userId:(NSString *)userId
                       userName:(NSString *)userName
-                    completion:(completion)completion;
+                    completion:(completion __nullable)completion;
 
 @end
 
