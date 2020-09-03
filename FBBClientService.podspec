@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 项目名称 七陌 客服
   s.name             = "FBBClientService"
   # 项目的版本号，通过项目git的tag标签进行对应，这里的标签代表的版本
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   # 项目简单的描述信息
   s.summary          = "七陌客服UI组件"
   
